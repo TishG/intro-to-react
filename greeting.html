@@ -24,8 +24,16 @@
        }
  
        ReactDOM.render(
-         <Greeting/>, document.getElementById("app")
+         <Greeting />, document.getElementById("app")
        );
-     </script>
+       
+       	var sentence = (
+       		<div>
+       			<h1>Hello World!</h1>
+       			<p>This is my first React assignment. I look forward to becoming a react expert.</p>
+       		</div>
+       	);
+       	ReactDOM.render(sentence, document.getElementById("app"));
+   </script>
 </body>
 </html>
